@@ -21,4 +21,19 @@ $ git commit -m "wrote a readme file"
 
 
 
-测试版本回退功能
+#### 使用gitlog打印修改过的流程
+
+![1565710752472](C:\Users\20201\AppData\Roaming\Typora\typora-user-images\1565710752472.png)
+
+####  使用git log --pretty==oneline 可以只打印前面的版本号
+
+![1565710871011](C:\Users\20201\AppData\Roaming\Typora\typora-user-images\1565710871011.png)
+
+####  使用 git reset --hard HEARD^回退到上个版本
+
+有几个^就回退几个版本
+
+#### 使用 git reset --hard （commit id）回退到指定版本
+
+#### 使用 git reflog来查看历史记录
+
